@@ -11,5 +11,3 @@ stores = Store.create(name: 'Gastown', annual_revenue: 190_000,
                       mens_apparel: true, womens_apparel: false)
 
 puts Store.count
-
-@store1 = Store.find_by(id: 1)
